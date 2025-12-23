@@ -3,11 +3,23 @@ package Control;
 import java.util.Scanner;
 
 public class Largest {
-    Scanner in = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-    int a = in.nextInt();
-    int b = in.nextInt();
-    int c = in.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
 
-    
+        int max = a;
+
+        if (b > max) {
+            max = b;
+        }
+        if (c > max) {
+            max = c;
+        }
+
+        System.out.println("Largest Number is: " + max);
+        sc.close();
+    }
 }
