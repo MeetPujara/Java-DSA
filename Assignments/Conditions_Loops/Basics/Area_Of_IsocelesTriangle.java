@@ -5,7 +5,7 @@ public class Area_Of_IsocelesTriangle {
         int base = 4;
         int height = 3;
 
-        float area_of_triangle = 0.5f * base * height;
-        System.out.println(area_of_triangle);
+        float area_of_isoceles_triangle = 0.5f * base * height;
+        System.out.println(area_of_isoceles_triangle);
     }
 }
