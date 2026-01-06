@@ -10,7 +10,6 @@ public class Product_Sum {
         int num = in.nextInt();
         int sum = 0;
         int prod = 1;
-//        int num = 4421;
         while (num > 0){
             int rem = num % 10;
             num/=10;
