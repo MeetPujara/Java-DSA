@@ -3,7 +3,7 @@ package Methods;
 import java.util.Arrays;
 
 public class ChangeValue {
-    static void main() {
+     static void main() {
         // create an array
         int[] arr = {1, 3, 2, 45, 6};
         change(arr);
