@@ -6,8 +6,8 @@ public class Prime_Num_Check {
     static void main() {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a Number: ");
-        int num = in.nextInt();
-        prime(num);
+        int num1 = in.nextInt();
+        prime(num1);
     }
 
     static void prime(int n){
