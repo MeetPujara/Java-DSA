@@ -26,6 +26,5 @@ public class Prime_Num_Check {
             }
             counter ++;
         }
-
     }
 }
