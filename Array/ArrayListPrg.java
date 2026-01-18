@@ -20,7 +20,7 @@ public class ArrayListPrg {
         for (int i = 0; i < 5; i++) {
             list.add(in.nextInt());
         }
-//        System.out.println(list);
+        System.out.println(list);
 
         // get item at any index
         for (int i = 0; i < 5; i++) {
