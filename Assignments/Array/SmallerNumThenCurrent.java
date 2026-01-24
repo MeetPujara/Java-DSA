@@ -8,13 +8,15 @@ public class SmallerNumThenCurrent {
         ArrayList<Integer> li = new ArrayList<>();
         int counter = 0;
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < i; j++) {
-                if(arr[i] < arr[j]){
+            for (int j = 0; j < arr.length; j++) {
+                if(arr[i] > arr[j]){
                     counter++;
                 }
             }
+            li.add(counter);
+            counter = 0;
         }
-        li.add(counter);
         System.out.println(li);
+
     }
 }
