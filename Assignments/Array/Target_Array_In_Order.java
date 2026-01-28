@@ -15,5 +15,6 @@ public class Target_Array_In_Order {
             target[index[i]] = nums[i];
         }
         System.out.println(Arrays.toString(target));
+        System.out.println(nums);
     }
 }
