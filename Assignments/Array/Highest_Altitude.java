@@ -11,5 +11,6 @@ public class Highest_Altitude {
             max_alt = Math.max(current_alt,max_alt);
         }
         System.out.println(max_alt);
+        System.out.println(current_alt);
     }
 }
