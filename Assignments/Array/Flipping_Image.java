@@ -15,5 +15,6 @@ public class Flipping_Image {
             }
         }
         System.out.println(Arrays.deepToString(image));
+        System.out.println(m);
     }
 }
