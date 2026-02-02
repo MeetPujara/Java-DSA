@@ -5,10 +5,12 @@ public class Matrix_Diagonal_Sum {
         int[][] mat = {{1,2,3},{4,5,6},{7,8,9}};
         int sum = 0;
         int n = mat.length;
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < i; j++) {
-
-            }
+        for (int i = 0; i < n; i++) {
+            sum+=mat[i][i];
+            sum+=mat[n - 1 - i][i];
+        }
+        if (n % 2 != 0) {
+            sum -= mat[n / 2][n / 2];
         }
         System.out.println(sum);
     }
