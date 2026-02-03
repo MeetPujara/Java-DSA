@@ -13,5 +13,6 @@ public class Matrix_Diagonal_Sum {
             sum -= mat[n / 2][n / 2];
         }
         System.out.println(sum);
+        System.out.println(mat);
     }
 }
