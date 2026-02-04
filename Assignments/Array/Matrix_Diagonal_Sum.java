@@ -14,5 +14,6 @@ public class Matrix_Diagonal_Sum {
         }
         System.out.println(sum);
         System.out.println(mat);
+        System.out.println(n);
     }
 }
