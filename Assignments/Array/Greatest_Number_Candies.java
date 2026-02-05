@@ -15,5 +15,6 @@ public class Greatest_Number_Candies {
             li.add(result >= maxi);
         }
         System.out.println(li);
+        System.out.println(candies);
     }
 }
