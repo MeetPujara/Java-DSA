@@ -18,5 +18,6 @@ public class TwoSum {
             }
         }
         System.out.println(list);
+        System.out.println(nums);
     }
 }
