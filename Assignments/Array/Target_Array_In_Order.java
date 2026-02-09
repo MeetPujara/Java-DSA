@@ -16,5 +16,6 @@ public class Target_Array_In_Order {
         }
         System.out.println(Arrays.toString(target));
         System.out.println(nums);
+        System.out.println(index);
     }
 }
