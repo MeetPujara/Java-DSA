@@ -21,5 +21,6 @@ public class Unique_Integer_Sum_0 {
         for (int num : result) {
             System.out.print(num + " ");
         }
+        System.out.println(n);
     }
 }
