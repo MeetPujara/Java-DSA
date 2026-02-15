@@ -38,5 +38,6 @@ public class Add_To_Array_Form_Integer {
 
         Collections.reverse(ans);
         System.out.println(ans);
+        System.out.println(k);
     }
 }
