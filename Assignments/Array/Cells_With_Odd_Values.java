@@ -10,7 +10,7 @@ public class Cells_With_Odd_Values {
 
         for (int i = 0; i < indices.length; i++) {
             for (int j = 0; j < n; j++) {
-                
+                System.out.println();
             }
         }
         
