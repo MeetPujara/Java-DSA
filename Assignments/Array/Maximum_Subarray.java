@@ -14,5 +14,6 @@ public class Maximum_Subarray {
         }
 
         System.out.println(max);
+        System.out.println(n);
     }
 }
