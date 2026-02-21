@@ -10,7 +10,9 @@ public class Maximum_Subarray {
             sum += nums[i];
             max = Math.max(sum,max);
 
-            if(sum<0) sum = 0;
+            if(sum<0) {
+                sum = 0;
+            }
         }
 
         System.out.println(max);
