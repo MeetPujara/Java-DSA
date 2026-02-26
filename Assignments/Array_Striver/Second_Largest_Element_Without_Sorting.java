@@ -17,5 +17,6 @@ public class Second_Largest_Element_Without_Sorting {
             }
         }
         System.out.println(second_largest);
+        System.out.println(largest);
     }
 }
