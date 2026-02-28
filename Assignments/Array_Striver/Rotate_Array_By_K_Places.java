@@ -20,5 +20,6 @@ public class Rotate_Array_By_K_Places {
             arr[i] = temp[i-(n-k)];
         }
         System.out.println(Arrays.toString(arr));
+        System.out.println(n);
     }
 }
