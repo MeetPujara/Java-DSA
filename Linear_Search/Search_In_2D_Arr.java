@@ -14,6 +14,9 @@ public class Search_In_2D_Arr {
         int target = 30;
         int[] ans = search(arr,target);
         System.out.println("Target is " + target + " and" + " Location is " + Arrays.toString(ans));
+
+        System.out.println(findMax(arr));
+
     }
 
     static int[] search(int[][] arr, int target){
@@ -25,5 +28,17 @@ public class Search_In_2D_Arr {
             }
         }
         return new int[]{-1,-1};
+    }
+
+    static int findMax(int[][] arr) {
+        int max = arr[0][0];
+        for (int row = 0; row < arr.length; row++) {
+            for (int col = 0; col < arr[row].length; col++) {
+                if (arr[row][col] > max) {
+                    max = arr[row][col];
+                }
+            }
+        }
+        return max;
     }
 }
