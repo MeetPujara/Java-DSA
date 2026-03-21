@@ -1,7 +1,7 @@
 package Assignments.Binary_Search;
 
 public class Ceiling_Of_Number {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] arr = {2, 3, 5, 9, 14, 16, 18};
         int target = 15;
         int ans = ceiling(arr, target);
