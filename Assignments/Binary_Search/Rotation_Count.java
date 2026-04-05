@@ -4,7 +4,7 @@ public class Rotation_Count {
     static void main() {
         int[] nums = {3,4,5,6,1,2};
 //        int target = 2;
-        Roated_Binary_Search rbs = new Roated_Binary_Search();
+        Rotation_Count rbs = new Rotation_Count();
         int pivot = rbs.findPivot(nums);
         int rotationCount = pivot + 1;
         System.out.println("The array is rotated " + rotationCount + " times.");
