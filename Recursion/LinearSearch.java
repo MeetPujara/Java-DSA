@@ -5,13 +5,14 @@ import java.util.Collection;
 
 public class LinearSearch {
     static void main() {
-        int[] arr = {1,2,3,4,5,6,6,7};
-        int target = 6;
+        int[] arr = {1,2,3,2,4};
+        int target = 2;
 //        System.out.println(find(arr,target,0));
 //        System.out.println(findIndex(arr,target,0));
 //        findAllIndex(arr,target,0);
 //        System.out.println(li);
-        System.out.println(findAllIndexwithList(arr,target,0,new ArrayList<>()));
+//        System.out.println(findAllIndexwithList(arr,target,0,new ArrayList<>()));
+        System.out.println(findAllIndexWithoutArgs(arr,target,0));
     }
 
     static boolean find(int[] arr,int target,int index){
@@ -53,5 +54,16 @@ public class LinearSearch {
             listt.add(index);
         }
         return findAllIndexwithList(arr,target,index+1,listt);
+    }
+
+    static ArrayList<Integer> findAllIndexWithoutArgs(int[] arr,int target,int index){
+        ArrayList<Integer> li2 = new ArrayList<>();
+        if(index == arr.length){
+            return findAllIndexwithList(arr,target,0,li2);
+        }
+        if(arr[index] == target){
+            li2.add(index);
+        }
+        return findAllIndexWithoutArgs(arr,target,index+1);
     }
 }
