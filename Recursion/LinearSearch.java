@@ -45,7 +45,7 @@ public class LinearSearch {
         findAllIndex(arr,target,index+1);
     }
 
-    static ArrayList findAllIndexwithList(int[]arr,int target,int index,ArrayList<Integer> listt){
+    static ArrayList<Integer> findAllIndexwithList(int[]arr,int target,int index,ArrayList<Integer> listt){
         if(index == arr.length){
             return listt;
         }
